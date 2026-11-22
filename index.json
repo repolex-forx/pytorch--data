@@ -3,6 +3,11 @@
   "repo": "data",
   "versions": [
     {
+      "commit": "2965fd3ec0f93241dfcd27a3a23bc14a5fc4ecec",
+      "tag": "xl-tm-sd-v1",
+      "parsed_at": "2026-11-22T08:20:23.841870+00:00"
+    },
+    {
       "commit": "ee79a399d3a53676544e0d3f0e826ffa58d1fec9",
       "tag": "",
       "parsed_at": "2026-11-06T06:36:01.322385+00:00"
