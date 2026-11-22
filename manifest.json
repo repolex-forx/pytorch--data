@@ -556,6 +556,101 @@
       ],
       "ast": [
         "aggregate/ast/2965fd3ec0f93241dfcd27a3a23bc14a5fc4ecec/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/2965fd3ec0f93241dfcd27a3a23bc14a5fc4ecec.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "urllib3",
+          "ecosystem": "PYPI",
+          "version": "1.25",
+          "githubOrg": "urllib3",
+          "githubRepo": "urllib3",
+          "githubCommit": "c3157af5e3b272d3fbffef23ee6215a229f8c61f",
+          "githubTag": "1.25",
+          "githubUrl": "https://github.com/urllib3/urllib3",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "requests",
+          "ecosystem": "PYPI",
+          "version": "2.34.2",
+          "githubOrg": "psf",
+          "githubRepo": "requests",
+          "githubCommit": "6e83187b8feb273ed4c6cdab5efd8d54901dfab3",
+          "githubTag": "v2.34.2",
+          "githubUrl": "https://github.com/psf/requests",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "torch",
+          "ecosystem": "PYPI",
+          "version": "2.15.0",
+          "githubOrg": "pytorch",
+          "githubRepo": "pytorch",
+          "githubCommit": "31a77fc9c0a7c6fff15a1ff58c743f53b1a9d457",
+          "githubTag": "v2.15.0",
+          "githubUrl": "https://github.com/pytorch/pytorch",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/torch/utils/data/dataset.py"
+        },
+        {
+          "packageName": "psutil",
+          "ecosystem": "PYPI",
+          "version": "7.2.2",
+          "githubOrg": "giampaolo",
+          "githubRepo": "psutil",
+          "githubCommit": "9eea97dd6f1d16ea33f5144c8925f1ce7a0688e1",
+          "githubTag": "v7.2.2",
+          "githubUrl": "https://github.com/giampaolo/psutil",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/psutil/__init__.py"
+        },
+        {
+          "packageName": "numpy",
+          "ecosystem": "PYPI",
+          "version": "2.5.5",
+          "githubOrg": "numpy",
+          "githubRepo": "numpy",
+          "githubCommit": "afcbc6d21a88a7b59c5bfe115198e24ed51b3dae",
+          "githubTag": "v2.5.5",
+          "githubUrl": "https://github.com/numpy/numpy",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/numpy/_core/numeric.py"
+        },
+        {
+          "packageName": "fsspec",
+          "ecosystem": "PYPI",
+          "version": "2026.9.0",
+          "githubOrg": "fsspec",
+          "githubRepo": "filesystem_spec",
+          "githubCommit": "0f76baaae4a227b085b18e8469e6cc1792a95ade",
+          "githubTag": "2026.9.0",
+          "githubUrl": "https://github.com/fsspec/filesystem_spec",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/fsspec/implementations/local.py"
+        },
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "84.2.1",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "3895f9829fc0e51882981773a823a658eb1d1636",
+          "githubTag": "v84.2.1",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/setuptools/__init__.py"
+        },
+        {
+          "packageName": "packaging",
+          "ecosystem": "PYPI",
+          "version": "26.3.0",
+          "githubOrg": "pypa",
+          "githubRepo": "packaging",
+          "githubUrl": "https://github.com/pypa/packaging",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/packaging/version.py"
+        }
       ]
     }
   ],

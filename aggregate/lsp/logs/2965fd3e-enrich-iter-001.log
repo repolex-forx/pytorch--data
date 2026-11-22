@@ -1,0 +1,46 @@
+[2026-11-22T07:21:40Z] === ENRICH ITERATION 1 START | repo=pytorch/data sha=2965fd3e ===
+[2026-11-22T07:21:40Z] [iter=1] PHASE START: enrich repo=pytorch/data sha=2965fd3e runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/2965fd3e-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/2965fd3ec0f93241dfcd27a3a23bc14a5fc4ecec.nq.gz
+[2026-11-22T07:21:43Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-22T07:21:53Z] [iter=1] AST store loaded triples=1230056 load_secs=9 mem_mb=831 MB
+[2026-11-22T07:21:53Z] [iter=1] Step 2: Finding LSP targets mem_mb=831 MB
+[2026-11-22T07:21:57Z] [iter=1] LSP targets found call_sites=11254 imports=952 extends=186 implements=0 secs=4
+[2026-11-22T07:22:00Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=831 MB
+[2026-11-22T07:22:06Z] [iter=1] Position index built positions=81618 nodes_with_types=105989 secs=7 mem_mb=831 MB
+[2026-11-22T07:22:06Z] [iter=1] Step 3: Starting LSP resolution mem_mb=831 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T07:22:06Z] [iter=1] Resolving target type target_type=call_site count=11254
+[2026-11-22T07:25:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.9 files_done=1 resolved=1429 errors=0 current=torchdata/dataloader2/communication/eventloop.py
+[2026-11-22T07:26:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.5 files_done=4 resolved=1586 errors=0 current=test/test_period.py
+[2026-11-22T07:28:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.7 files_done=8 resolved=2295 errors=0 current=test/test_iterdatapipe.py
+[2026-11-22T07:30:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.6 files_done=9 resolved=3339 errors=0 current=torchdata/stateful_dataloader/stateful_dataloader.py
+[2026-11-22T07:30:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.3 files_done=10 resolved=3555 errors=0 current=test/dataloader2/test_mprs.py
+[2026-11-22T07:31:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.2 files_done=11 resolved=3807 errors=0 current=torchdata/datapipes/iter/util/jsonparser.py
+[2026-11-22T07:32:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.7 files_done=15 resolved=4054 errors=0 current=torchdata/datapipes/iter/util/shardexpander.py
+[2026-11-22T07:33:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.1 files_done=19 resolved=4656 errors=0 current=torchdata/datapipes/iter/transform/callable.py
+[2026-11-22T07:34:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.9 files_done=23 resolved=5013 errors=0 current=test/test_seed_generator.py
+[2026-11-22T07:35:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.8 files_done=25 resolved=5222 errors=0 current=torchdata/datapipes/iter/util/protobuf_template/_tfrecord_example_pb2.py
+[2026-11-22T07:36:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.4 files_done=28 resolved=5374 errors=0 current=test/test_local_io.py
+[2026-11-22T07:37:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.7 files_done=29 resolved=5774 errors=0 current=torchdata/dataloader2/communication/protocol.py
+[2026-11-22T07:38:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.3 files_done=30 resolved=5894 errors=0 current=torchdata/stateful_dataloader/worker.py
+[2026-11-22T07:38:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.9 files_done=36 resolved=6162 errors=0 current=torchdata/datapipes/iter/load/s3io.py
+[2026-11-22T07:40:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.4 files_done=39 resolved=6562 errors=0 current=torchdata/dataloader2/communication/queue.py
+[2026-11-22T07:40:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.9 files_done=45 resolved=6799 errors=0 current=test/test_aistore.py
+[2026-11-22T07:41:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.6 files_done=50 resolved=7044 errors=0 current=torchdata/datapipes/iter/util/cacheholder.py
+[2026-11-22T07:41:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.2 files_done=54 resolved=7274 errors=0 current=examples/dataloader2/train_loop_distributed_reading_service.py
+[2026-11-22T07:42:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.7 files_done=60 resolved=7484 errors=0 current=torchdata/datapipes/iter/util/zip_longest.py
+[2026-11-22T07:42:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.3 files_done=63 resolved=7612 errors=0 current=torchdata/datapipes/iter/util/prefetcher.py
+[2026-11-22T07:43:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.8 files_done=70 resolved=7882 errors=0 current=torchdata/datapipes/utils/pin_memory.py
+[2026-11-22T07:43:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.3 files_done=79 resolved=8076 errors=0 current=torchdata/dataloader2/communication/iter.py
+[2026-11-22T07:44:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.0 files_done=80 resolved=8201 errors=0 current=torchdata/dataloader2/communication/map.py
+[2026-11-22T07:45:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.6 files_done=87 resolved=8478 errors=0 current=examples/criteo_torcharrow/common.py
+[2026-11-22T07:45:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=24.2 files_done=97 resolved=8693 errors=0 current=torchdata/stateful_dataloader/sampler.py
+[2026-11-22T07:46:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=24.7 files_done=109 resolved=8883 errors=0 current=examples/vision/caltech256.py
+[2026-11-22T07:46:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.2 files_done=137 resolved=9087 errors=0 current=packaging/pkg_helpers.bash
+[2026-11-22T07:47:15Z] [iter=1] Target type resolved target_type=call_site resolved=9147 errors=0 secs=1509 mem_mb=831 MB
+[2026-11-22T07:47:15Z] [iter=1] Resolving target type target_type=import_statement count=952
+[2026-11-22T07:47:26Z] [iter=1] Target type resolved target_type=import_statement resolved=889 errors=0 secs=11 mem_mb=831 MB
+[2026-11-22T07:47:26Z] [iter=1] Resolving target type target_type=extends_clause count=186
+[2026-11-22T07:47:26Z] [iter=1] HEARTBEAT target_type=extends_clause elapsed_min=25.8 files_done=0 resolved=0 errors=0 current=examples/text/squad1.py
+[2026-11-22T07:47:33Z] [iter=1] Target type resolved target_type=extends_clause resolved=186 errors=0 secs=7 mem_mb=831 MB
+[2026-11-22T08:17:58Z] [iter=1] Step 5: Writing final enrichment file triples=126731
+[2026-11-22T08:18:00Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/2965fd3ec0f93241dfcd27a3a23bc14a5fc4ecec.nq.gz size_kb=2909
+[2026-11-22T08:18:00Z] [iter=1] PHASE END: enrich elapsed_s=3380 elapsed_min=56.3 total_triples=126731
