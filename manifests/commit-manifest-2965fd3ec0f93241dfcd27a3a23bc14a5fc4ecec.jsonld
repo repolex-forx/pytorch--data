@@ -42,9 +42,15 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 392592
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/2965fd3ec0f93241dfcd27a3a23bc14a5fc4ecec/chunk-001.nq.gz",
+      "repolex:graphFileSize": 17412002
     }
   ],
-  "repolex:parseStatus": "metadata_complete",
+  "repolex:parseStatus": "ast_complete",
   "repolex:parsedAt": "2026-11-22T07:16:16.305354+00:00",
   "repolex:parserVersion": "0.1.10",
   "git:tagName": "xl-tm-sd-v1"
